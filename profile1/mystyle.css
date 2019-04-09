@@ -1,0 +1,297 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    overflow-x: hidden;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+.menu{
+    font-size:25px;
+    cursor:pointer;
+    text-shadow:2px 2px lightgrey;
+}
+.edu{
+    padding: 80px;
+}
+.a{
+    font-size:35px;
+    margin-top: 30vh;
+    text-shadow:3px 3px lightgrey; 
+    text-align: center;
+}
+.backroundimg{
+    background-image: url(b1.jpg);
+    width: 100%;
+    height:100vh;
+    background-attachment: fixed;
+}
+.about{
+    text-shadow:3px 3px lightgrey;
+    margin-top: -20px;
+    padding: 20px;
+}
+.inf{
+    padding: 5vh;
+    font-size: 4vh;
+    text-shadow: 2px 2px lightgrey;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 40px 40px;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+.txt{
+    text-shadow:1.5px 1.5px lightgrey;
+}
+
+
+ .page {
+            margin: 40px;
+        }
+
+    h1{
+                margin: 40px 0 60px 0;
+        }
+
+    .dark-area {
+            background-color: #666;
+             padding: 40px;
+            margin: 0 -40px 20px -40px;
+            clear: both;
+         }
+
+
+.st{
+    list-style: none;
+    margin:500px 300px;
+    font-size:20px;
+    padding:20px 20px;
+    transition:.5s;
+}
+.st{
+    position: absolute;
+    transform: translate(-50%,50%);
+    display: inline-block;
+}
+.b{
+        text-shadow:3px 3px lightgrey;  
+
+}
+.c{
+            text-shadow:1px 1px lightgrey;  
+}
+.abtpading{
+    padding: 50px;
+}
+.abtme{
+    margin-bottom:30px;
+}
+.progress-bar{
+    margin-top: 30px;
+    padding: -30px;
+}
+.skillimg{
+    background: url(b1.jpg);
+     background-attachment: fixed;
+    
+}
+
+#contact{
+    width: 200px;
+}
+.socialicon {
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+    font-size: 20px;
+    
+   
+}
+.social{
+     margin-left: 350px;
+    margin-right:300px;
+}
+.fa:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  
+  color: white;
+}
+.fa-linkedin {
+  
+  color: white;
+}
+.fa-instagram {
+  color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+.timeline{
+    margin-top: -21px;
+}
+.savundharya{
+    margin-left: 180px;
+    height: 400px;
+    width: 300px;
+    background-color: lightgray;
+}
+h4{
+    margin-left: 120px;
+    text-shadow: 5px;
+    
+}
+
+form{
+    width:700px;
+}
+.mail{
+    margin-left: 130px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*media queries*/
+@media (max-width:1200px) and (min-width: 992px){
+    body{
+        width:1060px;
+    }
+
+  
+}
+
+@media (max-width:991px) and (min-width: 768px){
+
+ 
+
+}
+
+@media (max-width:767px) and (min-width: 551px){
+
+  
+}
+
+@media (max-width: 550px) and (min-width: 352px){
+
+  
+}
+
+@media (max-width: 351px) {
+    body{
+        max-width: 350px!important;
+    }
+    .backroundimg{
+        width: 177%!important;
+        height: 950px;
+    }
+    .intro{
+        font-size: 30px;
+        line-height: 80px;
+    }
+    .b{
+        font-size: 28px;
+    }
+    .c{
+        font-size: 22px;
+        line-height: 40px;
+        width: 400px; 
+    }
+    
+}
+
